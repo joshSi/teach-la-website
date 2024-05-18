@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.3.0"
 gem 'jekyll-seo-tag' # check out this https://jekyll.github.io/jekyll-seo-tag/usage/
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -15,7 +15,7 @@ end
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-category-pages"
-  gem 'jekyll-feed'
+  gem 'jekyll-feed', '>= 0.17.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
